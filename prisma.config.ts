@@ -11,6 +11,6 @@ export default defineConfig({
   },
   engine: "classic",
   datasource: {
-    url: env("DATABASE_URL"),
+    url: "postgresql://zerowaste_user:zerowaste_pass@127.0.0.1:5433/zerowaste_db",
   },
 });
